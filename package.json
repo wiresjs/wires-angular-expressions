@@ -1,0 +1,21 @@
+{
+  "name": "wires-angular-expressions",
+  "version": "1.0.0",
+  "description": "Angular expressions",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:wiresjs/wires-angular-expressions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/wiresjs/wires-angular-expressions#readme"
+}
