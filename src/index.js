@@ -1136,4 +1136,4 @@
       npmExpose.Compile = compile
       npmExpose.filters = filters;
    }
-})(typeof module !== "undefined" && module.exports && typeof process === "object", typeof window !== undefined ? window : exports);
+})(typeof module !== "undefined" && module.exports && typeof process === "object", typeof window !== "undefined" ? window : exports);
