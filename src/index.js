@@ -1128,6 +1128,7 @@
       Exports.Parser = Parser;
       Exports.Compile = compile
       Exports.filters = filters;
+      return Exports;
    } else {
       Exports.__npm__ = Exports.__npm__ || {};
       var npmExpose = Exports.__npm__["wires-angular-expressions"] = {};
@@ -1135,5 +1136,7 @@
       npmExpose.Parser = Parser;
       npmExpose.Compile = compile
       npmExpose.filters = filters;
+      return npmExpose;
    }
+
 })(typeof module !== "undefined" && module.exports && typeof process === "object", typeof window !== "undefined" ? window : exports);

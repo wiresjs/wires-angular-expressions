@@ -1,6 +1,6 @@
 {
   "name": "wires-angular-expressions",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Angular expressions",
   "main": "src/index.js",
   "directories": {
